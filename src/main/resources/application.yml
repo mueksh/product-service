@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+
+
+spring:
+  application:
+    name: product-service
+# MongoDB connection URI for Atlas (Spring Data MongoDB)
+  data:
+    mongodb.uri: mongodb+srv://mukeshgangwar654:dvbMXOXuNe1UL4e0@family-crop-management.9g0l69v.mongodb.net/family-crop-management?retryWrites=true&w=majority&appName=family-crop-management
+
+logging:
+  level:
+    root: INFO
+  com:
+    yourpackage: DEBUG
+
+
+
+
